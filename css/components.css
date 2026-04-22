@@ -9,12 +9,26 @@ nav {
 }
 .nav-logo {
   font-family: 'Playfair Display', serif;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   font-weight: 900;
   color: var(--terracota);
   letter-spacing: -0.02em;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
 }
 .nav-logo span { color: var(--brown); font-style: italic; }
+.nav-logo em {
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--brown);
+  opacity: 0.6;
+  margin-top: 0.15rem;
+}
 .nav-links { display: flex; gap: 2rem; list-style: none; }
 .nav-links a {
   text-decoration: none;
