@@ -3,9 +3,9 @@ nav {
   position: fixed; top: 0; left: 0; right: 0; z-index: 100;
   display: flex; justify-content: space-between; align-items: center;
   padding: 1.2rem 5%;
-  background: rgba(253,246,238,0.92);
+  background: rgba(240,247,244,0.92);
   backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(192,98,58,.15);
+  border-bottom: 1px solid rgba(82,121,111,.15);
 }
 .nav-logo {
   font-family: 'Playfair Display', serif;
@@ -58,9 +58,9 @@ nav {
   padding: .9rem 2rem; border-radius: 100px;
   text-decoration: none; border: none; cursor: pointer;
   transition: transform .2s, box-shadow .2s;
-  box-shadow: 0 4px 20px rgba(192,98,58,.35);
+  box-shadow: 0 4px 20px rgba(82,121,111,.35);
 }
-.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(192,98,58,.4); }
+.btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 30px rgba(82,121,111,.4); }
 
 .btn-outline {
   display: inline-flex; align-items: center; gap: .6rem;
@@ -112,7 +112,7 @@ nav {
   font-size: 1.3rem; font-weight: 700;
   color: var(--brown); margin-bottom: .6rem;
 }
-.card p { font-size: .95rem; color: #6b4c35; line-height: 1.6; }
+.card p { font-size: .95rem; color: #3d6b56; line-height: 1.6; }
 .card-price {
   margin-top: 1.2rem;
   display: inline-block;
