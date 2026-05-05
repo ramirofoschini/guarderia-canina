@@ -1,4 +1,27 @@
 /* ── NAV ── */
+.nav-hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: .4rem;
+  z-index: 101;
+}
+.nav-hamburger span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: var(--brown);
+  border-radius: 2px;
+  transition: transform .3s, opacity .3s;
+}
+.nav-hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.nav-hamburger.open span:nth-child(2) { opacity: 0; }
+.nav-hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
 nav {
   position: fixed; top: 0; left: 0; right: 0; z-index: 100;
   display: flex; justify-content: space-between; align-items: center;
@@ -101,9 +124,9 @@ nav {
 .card:hover { transform: translateY(-6px); box-shadow: 0 20px 60px rgba(0,0,0,.1); }
 .card-1 { background: var(--warm); }
 .card-2 { background: var(--green-light); }
-.card-3 { background: #fce8e8; }
-.card-4 { background: #e8ecff; }
-.card-5 { background: #fff4e0; }
+.card-3 { background: #e4f0ec; }
+.card-4 { background: #f0f5e8; }
+.card-5 { background: #fef9e4; }
 .card-6 { background: var(--warm); }
 
 .card-icon { font-size: 2.8rem; margin-bottom: 1.2rem; display: block; }
